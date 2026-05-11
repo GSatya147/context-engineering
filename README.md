@@ -20,7 +20,7 @@
 ## Why to manage context:
 since models have limited context window length managing the context we send is essential to avoid unexpected behaviour, underperformance, hallucinations or breakage of pipelines.
 
-#### How to manage
+### How to manage?
 Managing context can be achieved through different strategies like
 1. Sliding window: trimming the oldest messages in the conversation chain
 2. Retrieval strategy: embedding the context and retrieving only needy information based on turns.
